@@ -1,39 +1,12 @@
 
-# go-getting-started
+# alay telegram bot in Go
 
-A barebones Go app, which can easily be deployed to Heroku.
+Very simple goapp to play with user input string from telegram chat
 
-This application supports the [Getting Started with Go on Heroku](https://devcenter.heroku.com/articles/getting-started-with-go) article - check it out.
+The Procfile is set to worker in case you want to host it in heroku as puller
 
 ## Running Locally
 
-Make sure you have [Go](http://golang.org/doc/install) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+Run main.go
 
-```sh
-$ go get -u github.com/heroku/go-getting-started
-$ cd $GOPATH/src/github.com/heroku/go-getting-started
-$ heroku local
-```
-
-Your app should now be running on [localhost:5000](http://localhost:5000/).
-
-You should also install [Godep](https://github.com/tools/godep) if you are going to add any dependencies to the sample app.
-
-## Deploying to Heroku
-
-```sh
-$ heroku create
-$ git push heroku master
-$ heroku open
-```
-
-or
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-
-## Documentation
-
-For more information about using Go on Heroku, see these Dev Center articles:
-
-- [Go on Heroku](https://devcenter.heroku.com/categories/go)
+Leave the Godep file to maintain info about dependencies
