@@ -10,3 +10,5 @@ The Procfile is set to worker in case you want to host it in heroku as puller
 Run main.go
 
 Leave the Godep file to maintain info about dependencies
+
+To chat with the running bot, checkout here https://storebot.me/bot/alaysbot
